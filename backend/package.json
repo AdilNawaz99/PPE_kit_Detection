@@ -1,0 +1,12 @@
+{
+  "name": "ppe-detection",
+  "version": "1.0.0",
+  "description": "PPE Detection Dashboard for Construction Site Safety",
+  "type": "module",
+  "main": "app.py",
+  "scripts": {
+    "start": "python -m flask run",
+    "dev": "python -m flask run --reload",
+    "test": "pytest"
+  }
+}

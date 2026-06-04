@@ -1,0 +1,57 @@
+# PPE Detection Dashboard
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Backend
+backend/venv/
+backend/__pycache__/
+.venv/
+.env
+.env.*
+backend/.env
+backend/*.log
+
+# Frontend
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Models (too large)
+models/*.pt
+# Except our trained model
+!models/best.pt
+
+# Output
+output/
+runs/
+results/
+*.tmp
+.cache/
+.pytest_cache/
+.mypy_cache/
